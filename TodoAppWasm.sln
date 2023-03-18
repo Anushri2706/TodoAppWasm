@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{3606CB5B-7DA7-48EF-BE00-77B0433E2D68}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BD74010F-9971-476C-93C7-FC8394BA993B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{004A3DF4-D45A-4C47-8124-6FDC59C47A1B}"
@@ -16,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3606CB5B-7DA7-48EF-BE00-77B0433E2D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3606CB5B-7DA7-48EF-BE00-77B0433E2D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3606CB5B-7DA7-48EF-BE00-77B0433E2D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3606CB5B-7DA7-48EF-BE00-77B0433E2D68}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD74010F-9971-476C-93C7-FC8394BA993B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD74010F-9971-476C-93C7-FC8394BA993B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD74010F-9971-476C-93C7-FC8394BA993B}.Release|Any CPU.ActiveCfg = Release|Any CPU
