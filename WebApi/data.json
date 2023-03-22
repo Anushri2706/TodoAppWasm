@@ -1,0 +1,51 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "anushri",
+      "Todos": null
+    },
+    {
+      "Id": 2,
+      "UserName": "hello",
+      "Todos": null
+    },
+    {
+      "Id": 3,
+      "UserName": "anushr",
+      "Todos": null
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "anushri",
+        "Todos": null
+      },
+      "Title": "lool",
+      "isCompleted": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "hello",
+        "Todos": null
+      },
+      "Title": "ejri",
+      "isCompleted": false
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 1,
+        "UserName": "anushri",
+        "Todos": null
+      },
+      "Title": "chris",
+      "isCompleted": false
+    }
+  ]
+}
