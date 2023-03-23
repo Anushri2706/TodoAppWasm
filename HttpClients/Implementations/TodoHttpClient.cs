@@ -29,4 +29,20 @@ public class TodoHttpClient : ITodoService
         return todo;
 
     }
+
+    public async Task<ICollection<Todo>> GetAsync(string? userName, int? userId, bool? completedStatus, string? titleContains)
+    {
+        HttpResponseMessage response = await client.GetAsync("/Todo");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        ICollection<Todo> todos = JsonSerializer.Deserialize<ICollection<Todo>>(content, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return todos;
+    }
 }
