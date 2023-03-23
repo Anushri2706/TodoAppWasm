@@ -29,6 +29,11 @@
       "Id": 6,
       "UserName": "Test2",
       "Todos": null
+    },
+    {
+      "Id": 7,
+      "UserName": "hiiiii",
+      "Todos": null
     }
   ],
   "Todos": [
@@ -60,6 +65,36 @@
         "Todos": null
       },
       "Title": "chris",
+      "isCompleted": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "anushri",
+        "Todos": null
+      },
+      "Title": "DoHomework",
+      "isCompleted": false
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 1,
+        "UserName": "anushri",
+        "Todos": null
+      },
+      "Title": "DoHomework",
+      "isCompleted": false
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 7,
+        "UserName": "hiiiii",
+        "Todos": null
+      },
+      "Title": "BlazorTodo",
       "isCompleted": false
     }
   ]
