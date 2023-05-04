@@ -40,7 +40,7 @@ public class UserHttpClient : IUserService
         {
             uri += $"?username={usernameContains}";
         }
-        HttpResponseMessage response = await client.GetAsync("/User");
+        HttpResponseMessage response = await client.GetAsync("/user");
         string result = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {

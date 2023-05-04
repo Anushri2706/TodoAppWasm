@@ -4,7 +4,6 @@
 @inject IUserService userService
 <h3 style="text-align: center">Overview of all users</h3>
 
-
 @if (!string.IsNullOrEmpty(msg))
 {
     <div>
@@ -12,11 +11,11 @@
     </div>
 }
 
-@if (users == null)
+@if (users==null)
 {
     <span>Loading..</span>
 }
-else if (!users.Any())
+@if (!users.Any())
 {
     <span>No users to be found</span>
 }

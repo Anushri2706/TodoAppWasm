@@ -35,7 +35,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<User>>> GetAsyncc([FromQuery] string? username)
+    public async Task<ActionResult<IEnumerable<User>>> GetAsync([FromQuery] string? username)
     {
         try
         {
@@ -49,5 +49,4 @@ public class UserController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    
 }
